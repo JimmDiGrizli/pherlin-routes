@@ -1,0 +1,32 @@
+{
+    "name": "getsky/pherlin-routes",
+    "type": "library",
+    "keywords": [ "framework", "phalcon", "bootstrap" ],
+    "description": "Routes with configuration files",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JimmDiGrizli",
+            "email": "getmansk-y@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+         "ext-phalcon": ">=1.2.4,<2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "GetSky\\Phalcon\\PherlinRoutes\\": "src/"
+        }
+    }
+}
